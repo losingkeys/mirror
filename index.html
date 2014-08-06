@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <title>Mirror</title>
+  <meta charset=utf-8>
+  <meta name=viewport content='initial-scale=1'>
+  <style>
+    body { text-align: center; }
+    video {
+      height: 100%;
+      width: 100%;
+      max-height: 100%;
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <video></video>
+  <p id=unsupported-message style=display:none>
+    Your browser doesn't appear to support WebRTC, check
+    <a href=http://caniuse.com/#feat=stream>caniuse.com</a>
+    for compatibility information, or
+    <a href=https://github.com/losingkeys/mirror/issues>
+      open an issue on GitHub
+    </a>
+    if you think this app is broken. Thanks!
+  </p>
+  <script src=app.js></script>
+</body>
+</html>
